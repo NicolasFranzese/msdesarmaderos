@@ -1,0 +1,25 @@
+.section-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.first-section {
+  background: #222d41;
+}
+
+.header {
+  width: 100%;
+}
+
+
+.second-section {
+  background: red;
+}
+
+.third-section {
+  background: yellow;
+}
+
+.fourth-section {
+  background: green;
+}
