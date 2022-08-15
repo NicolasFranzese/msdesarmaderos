@@ -4,11 +4,12 @@
 }
 
 .first-section {
-  background: #222d41;
+  background: black;
+  
 }
 
 .header {
-  background: white;
+  background: black;
   width: 100%;
   height: 100px;
   left: 0;
@@ -22,16 +23,17 @@
 }
 
 .father-text-div {
-  background: #222d41;
-  width: 52%;
-  height: 100px;
-  margin-left: 124px;
-  margin-block-start: 60px;
-  top: 0;
-
+  background: transparent;
+    width: 52%;
+    height: 100px;
+    margin-left: 124px;
+    margin-block-start: -22%;
+    top: 0;
 }
+
+
 .son-text-div {
-  background: #222d41;
+  background: transparent;
   width: 52%;
   height: 100px;
   margin-left: 124px;
@@ -40,11 +42,40 @@
 
 }
 
+.slogan-div {
+  text-align: left;
+  width: 358px;
+  max-width: 358px;
+  align-self: flex-start;
+  margin-left: 130px;
+  padding-block-start: 24px;
+}
+
+.slogan-font{
+
+  color: #99a1b2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
 .font {     
   color: #fff;
   font-size: 105px;
   font-weight: 900;
   line-height: 110px;
+
+}
+
+.column-div{
+
+    background-color:#222732;
+    max-width: 426px;
+    margin-left: 1088px;
+    height: 40%;
+    border-radius: 20px;
+    
+    
 }
 
 
@@ -53,13 +84,13 @@
 
 
 .second-section {
-  background: red;
+  background: #0c0f16;
 }
 
 .third-section {
-  background: yellow;
+  background: #0f141e;
 }
 
 .fourth-section {
-  background: green;
+  background: #222732;
 }
