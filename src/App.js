@@ -1,5 +1,6 @@
 import './App.css';
-import './images/logo2.png';
+import logo from './images/logo.png'
+// import ford from './images/ford.png'
 
 function App() {
   return (
@@ -7,18 +8,36 @@ function App() {
       <div className='section-container first-section'>
         
         <div className='header'>
-          <img className= 'image' src='https://dvqlxo2m2q99q.cloudfront.net/000_clients/400140/page/400140WKqcxaTs.jpg'/>
+          <img className= 'image' src={logo}/>
         </div>
-        <div className='column-div'></div>
-        <div className='father-text-div'>
-            <h1 className='font'>Find your</h1>
+        <div className='home-container'>
+          <div>
+            <div className='father-text-div'>
+              <h1 className='font'>MSDesarmaderos</h1>
+            </div>
+          
+            <div className='slogan-div'>
+              <h2 className='slogan-font'>Es una empresa con grandes objetivos, la cual ha nacido de la fusión de un grupo de personas con mucha experiencia en el rubro, haciendo de la profesionalidad y un continuo afán de superación, los pilares fundamentales para llevar a cabo el cumplimiento de nuestros objetivos.</h2>
+            </div>
+          </div>
+          <div>
+            <div className='column-div'></div>
+          </div>
         </div>
-        <div className='son-text-div'>
-            <h1 className='font'>dream car</h1>
+
+       <div style={{ color: "white"}}>
+        <div>
+          Nuestras marcas
         </div>
-        <div className='slogan-div'>
-          <h2 className='slogan-font'>We can help you find the best car. Check our reviews, compare models and find cars for sale</h2>
+        <div>
+        { /* <img className= 'ford' src={ford}/> */}
+        { /* <img className= 'ford' src={ford}/> */}
+        { /* <img className= 'ford' src={ford}/> */}
+        { /* <img className= 'ford' src={ford}/> */}
+        { /* <img className= 'ford' src={ford}/> */}
         </div>
+       </div>
+
         
       </div>
 

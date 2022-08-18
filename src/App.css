@@ -1,5 +1,5 @@
 .section-container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -10,10 +10,8 @@
 
 .header {
   background: black;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  top: 0;
+  height: 70px;
+  padding-top: 12px;
 }
 
 .image {
@@ -22,24 +20,19 @@
 
 }
 
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
 .father-text-div {
   background: transparent;
-    width: 52%;
-    height: 100px;
-    margin-left: 124px;
-    margin-block-start: -22%;
-    top: 0;
 }
 
 
 .son-text-div {
   background: transparent;
-  width: 52%;
-  height: 100px;
-  margin-left: 124px;
-  margin-block-start: -56px;
-  top: 0;
-
 }
 
 .slogan-div {
@@ -47,12 +40,9 @@
   width: 358px;
   max-width: 358px;
   align-self: flex-start;
-  margin-left: 130px;
-  padding-block-start: 24px;
 }
 
 .slogan-font{
-
   color: #99a1b2;
   font-size: 16px;
   font-weight: 400;
@@ -61,21 +51,18 @@
 
 .font {     
   color: #fff;
-  font-size: 105px;
+  font-size: 69px;
   font-weight: 900;
   line-height: 110px;
-
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .column-div{
-
     background-color:#222732;
-    max-width: 426px;
-    margin-left: 1088px;
-    height: 40%;
+    width: 426px;
+    height: 400px;
     border-radius: 20px;
-    
-    
 }
 
 
