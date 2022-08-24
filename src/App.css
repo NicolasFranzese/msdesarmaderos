@@ -65,14 +65,85 @@
     border-radius: 20px;
 }
 
+.companies {
+
+  background: black;
+  display: flex;
+  margin-top: 28px;
+  flex-direction: column;
+  
+}
+
+/* .son-companies {
+
+  
+} */
+
+.tittle-sponsors {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-style: oblique;
+}
 
 
+
+/* CHEQUEAR CON NICO
+/* @font-face {
+  font-family: 'AudiType-Bold_03.ttf';
+  src: url('/src/fuentes/audi/AudiType-Bold_03.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+
+} */ 
+
+.images-companies {
+
+ 
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+
+
+.sponsors {
+  width: 195px;
+  padding: 31px;
+  object-fit: contain;
+}
   
 
 
 .second-section {
   background: #0c0f16;
+  display: flex;
+
 }
+
+/* .section-identity {
+  background: gray;
+  width: inherit;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.tittle-identity {
+
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.presentation{
+
+  display: flex;
+  justify-content: space-around;
+} */
+
 
 .third-section {
   background: #0f141e;
