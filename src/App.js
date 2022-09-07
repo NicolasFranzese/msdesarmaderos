@@ -32,7 +32,7 @@ function App() {
 
         <div className='companies'>
           <div className='son-companies' >
-            <h1 className='tittle-sponsors'>Nuestras Marcas </h1>
+            <h1 className='tittle-sponsors'>NUESTRAS MARCAS</h1>
 
           </div>
           <div className='images-companies'>
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div className='section-container second-section'>
-        {/* <div className='section-identity'>
+        { <div className='section-identity'>
           <div className='tittle-identity'>Why chose us?</div>
 
           <div className='presentation'>
@@ -60,7 +60,7 @@ function App() {
            </div>
 
 
-        </div> */}
+        </div> }
       </div>
 
       <div className='section-container third-section'>
