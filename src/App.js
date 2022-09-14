@@ -1,11 +1,14 @@
 import './App.css';
-import logo from './images/logo.png';
+import logo from '././images/logo.ico';
 import ford from './images/ford.png';
 import chevrolet from './images/chevrolet.png';
 import peugeot from './images/peugeot.png';
 import renault from './images/renault.png';
 import audi from './images/audi.png';
 import volkswagen from './images/volkswagen.png'
+import medalla from './images/medalla.png'
+import team from './images/team.png'
+import finanzas from './images/finanzas.png'
 
 function App() {
   return (
@@ -50,17 +53,40 @@ function App() {
       </div>
 
       <div className='section-container second-section'>
-        { <div className='section-identity'>
-          <div className='tittle-identity'>Why chose us?</div>
+        <div className='section-identity'>
+          <div className='tittle-identity'>Why choose us?</div>
 
           <div className='presentation'>
-            <div>presentation1</div>
-            <div>presentation2</div>
-            <div>presentation3</div>
-           </div>
+            <div className='presentation2'>
+              <div className='description'>
+                <img className='logo-medal' src={medalla}></img>
+              </div>
+              <div className='medal-tittle'>
+                Wide range of brands
+              </div>
+              <div className='medal-description'>
+                We can help with your financing plan, we can offer some tips and tricks. Drive off with this dream car of yours regardless of your credit history.
+              </div>
+            </div>
+            <div className='presentation2'>
+              <div className='description'>
+                <img className='logo-medal' src={team}></img>
+              </div>
+              <div className='medal-tittle'>Trusted by our clients</div>
+              <div className='medal-description'>We can help with your financing plan, we can offer some tips and tricks. Drive off with this dream car of yours regardless of your credit history.</div>
+            </div>
+            <div className='presentation2'>
+              <div className='description'>
+                <img className='logo-medal' src={finanzas}></img>
+              </div>
+              <div className='medal-tittle'>Fast & easy financing</div>
+              <div className='medal-description'>We can help with your financing plan, we can offer some tips and tricks. Drive off with this dream car of yours regardless of your credit history.</div>
+            </div>
+
+          </div>
 
 
-        </div> }
+        </div>
       </div>
 
       <div className='section-container third-section'>

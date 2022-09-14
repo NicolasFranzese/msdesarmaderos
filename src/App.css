@@ -1,11 +1,10 @@
 .section-container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .first-section {
   background: black;
-
 }
 
 .header {
@@ -110,6 +109,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  margin-bottom: 20px;
   align-items: center;
 }
 
@@ -131,20 +131,24 @@
 }
 
 .section-identity {
-  background: gray;
+  background: aliceblue;
   width: inherit;
   margin: 50px;
   display: flex;
   flex-direction: column;
+  padding-top: 70px;
 
 }
 
 .tittle-identity {
 
-  text-align: center;
-  color: white;
-  font-size: x-large;
-  font-style: oblique;
+    color: #222732;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 66px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .presentation {
@@ -152,6 +156,42 @@
   display: flex;
   justify-content: space-around;
 }
+.presentation2 {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.description {
+  margin: 0 0 50px ;
+  display: flex;
+  
+}
+
+.logo-medal{
+  
+  max-width: 12%;
+  margin: auto;
+}
+
+.medal-tittle {
+
+     color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 14px;
+}
+
+.medal-description {
+    text-align: center;
+    color: #222732;
+    font-size: 16px;
+    line-height: 27px;
+    width: 300px;
+    max-width: 300px;
+}
+
 
 
 .third-section {
