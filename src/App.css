@@ -196,6 +196,42 @@
 
 .third-section {
   background: #0f141e;
+  display: flex;
+}
+
+.principal-shops {
+  
+  width: inherit;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.tittle-shops {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 66px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.shops {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  padding-top: 20px;
+}
+
+.city-shops {
+  color:aliceblue;
+  font-weight: 800;
 }
 
 .fourth-section {

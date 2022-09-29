@@ -10,6 +10,7 @@ import medalla from './images/medalla.png'
 import team from './images/team.png'
 import finanzas from './images/finanzas.png'
 
+
 function App() {
   return (
     <div id="App">
@@ -21,7 +22,7 @@ function App() {
         <div className='home-container'>
           <div>
             <div className='father-text-div'>
-              <h1 className='font'>MSDesarmaderos</h1>
+              <h1 className='font'>MS Desarmaderos</h1>
             </div>
 
             <div className='slogan-div'>
@@ -29,7 +30,9 @@ function App() {
             </div>
           </div>
           <div>
-            <div className='column-div'></div>
+            <div className='column-div'>
+              
+            </div>
           </div>
         </div>
 
@@ -90,7 +93,15 @@ function App() {
       </div>
 
       <div className='section-container third-section'>
-
+        <div className='principal-shops'>
+          <div className='tittle-shops'>Nuestras Sucursales</div>
+          <div className='shops'>
+          <div className='city-shops'>MAR DEL PLATA</div>
+          <div className='city-shops'>RAMOS MEJIA</div>
+          <div className='city-shops'>FLORENCIO VARELA</div>
+          <div className='city-shops'>MICROCENTRO</div>
+          </div>
+        </div>
       </div>
 
       <div className='section-container fourth-section'>
