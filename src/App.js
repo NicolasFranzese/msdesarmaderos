@@ -9,6 +9,9 @@ import volkswagen from './images/volkswagen.png'
 import medalla from './images/medalla.png'
 import team from './images/team.png'
 import finanzas from './images/finanzas.png'
+import ubicacion from './images/ubicacion.png'
+import telefono from './images/telefono2.png'
+import maps from './images/maps.png'
 
 
 function App() {
@@ -31,7 +34,7 @@ function App() {
           </div>
           <div>
             <div className='column-div'>
-              
+
             </div>
           </div>
         </div>
@@ -96,10 +99,78 @@ function App() {
         <div className='principal-shops'>
           <div className='tittle-shops'>Nuestras Sucursales</div>
           <div className='shops'>
-          <div className='city-shops'>MAR DEL PLATA</div>
-          <div className='city-shops'>RAMOS MEJIA</div>
-          <div className='city-shops'>FLORENCIO VARELA</div>
-          <div className='city-shops'>MICROCENTRO</div>
+            <div className='individual-shops'>
+              <div className='city-shops'>
+                <h4 className='subtitle-shops'>MAR DEL PLATA</h4>
+              </div>
+              <div className='maps'>
+                <img className='maps-image' src={maps}>
+                </img>
+              </div>
+              <div className='data-maps'>
+                <div className='sub-maps'>
+                  <img className='location' src={ubicacion}></img>
+                  <span className='text-location'>Playa Grande, Mar del plata 7600. Buenos Aires, Argentina.</span>
+                </div>
+                <div className='sub-maps'><img className='location' src={telefono}></img>
+                  <span className='text-location'>+54 0223-4711716.</span></div>
+
+              </div>
+            </div>
+            <div className='individual-shops'>
+              <div className='city-shops'>
+                <h4 className='subtitle-shops'>BARCELONA</h4>
+              </div>
+              <div className='maps'>
+                <img className='maps-image' src={maps}>
+                </img>
+              </div>
+              <div className='data-maps'>
+                <div className='sub-maps'>
+                  <img className='location' src={ubicacion}></img>
+                  <span className='text-location'>Distrito de les Corts, Barcelona 08001. Cataluña, España.</span>
+                </div>
+                <div className='sub-maps'><img className='location' src={telefono}></img>
+                  <span className='text-location'>+34 93 4711716.</span></div>
+
+              </div>
+            </div>
+            <div className='individual-shops'>
+              <div className='city-shops'>
+                <h4 className='subtitle-shops'>NAPLES</h4>
+              </div>
+              <div className='maps'>
+                <img className='maps-image' src={maps}>
+                </img>
+              </div>
+              <div className='data-maps'>
+                <div className='sub-maps'>
+                  <img className='location' src={ubicacion}></img>
+                  <span className='text-location'>Naples, Florida B1602. United States.</span>
+                </div>
+                <div className='sub-maps'><img className='location' src={telefono}></img>
+                  <span className='text-location'>+081 4711716.</span></div>
+
+              </div>
+            </div>
+            <div className='individual-shops'>
+              <div className='city-shops'>
+                <h4 className='subtitle-shops'>ROMA</h4>
+              </div>
+              <div className='maps'>
+                <img className='maps-image' src={maps}>
+                </img>
+              </div>
+              <div className='data-maps'>
+                <div className='sub-maps'>
+                  <img className='location' src={ubicacion}></img>
+                  <span className='text-location'>Trastevere, Roma 00042. Italy.</span>
+                </div>
+                <div className='sub-maps'><img className='location' src={telefono}></img>
+                  <span className='text-location'>+0039 4711716.</span></div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
