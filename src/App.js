@@ -34,7 +34,7 @@ function App() {
           </div>
           <div>
             <div className='column-div'>
-
+              
             </div>
           </div>
         </div>
