@@ -12,7 +12,8 @@ import finanzas from "./images/finanzas.png";
 import ubicacion from "./images/ubicacion.png";
 import telefono from "./images/telefono2.png";
 import maps from "./images/maps.png";
-
+import clean from "./images/clean.jpg"
+import clean2 from "./images/clean2.jpg"
 function App() {
   return (
     <div id="App">
@@ -188,7 +189,35 @@ function App() {
         </div>
       </div>
 
-      <div className="section-container fourth-section"></div>
+      <div className="section-container fourth-section">
+
+        <div className="structure">
+          <div className="internal-structure">
+            <img className="clean-img" src={clean}></img>
+          </div>
+          <div></div>
+        </div>
+        <div className="structure">
+          <div className="internal-structure">
+          </div>
+          <div className="internal-structure"> <img className="clean-img" src={clean2}></img></div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
     </div>
   );
 }

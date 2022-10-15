@@ -1,6 +1,7 @@
 .section-container {
   width: 100%;
   min-height: 100vh;
+  
 }
 
 .first-section {
@@ -290,5 +291,27 @@
 }
 
 .fourth-section {
-  background: #222732;
+  background: black;
+  height: 1222px;
+}
+
+.structure {
+
+  display: flex;
+  flex-flow: row nowrap;
+  height: 50%;
+  
+}
+
+.internal-structure {
+  width: 50%;
+  
+  
+}
+
+.clean-img {
+  width: 100%;
+  height: 100%;
+
+
 }
