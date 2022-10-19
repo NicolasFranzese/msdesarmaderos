@@ -195,14 +195,40 @@ function App() {
           <div className="internal-structure">
             <img className="clean-img" src={clean}></img>
           </div>
-          <div></div>
+          <div className="internal-structure">
+            <div className="tittle-structure">
+              <div className="content-structure">
+                <div className="distribution-structure1">
+                  <h2 className="tittle-content">CAR EXTERIOR CLEANING: BASIC DETAILING</h2>
+                </div>
+                <div className="distribution-structure2">
+                  <div className="subtittle-content">
+                    <h1 className="subtittle-text">SAME DAY SERVICE</h1>
+                  </div>
+                  <div className="subtittle-content"><h1 className="subtittle-text">ONLINE APPOINTMENT</h1></div>
+                  <div className="subtittle-content"><h1 className="subtittle-text">CONVENIENT LOCATION</h1></div>
+                  <div className="subtittle-content"><h1 className="subtittle-text">COMPLIMENTARY SHUTTLE</h1></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
         <div className="structure">
           <div className="internal-structure">
+            <div className="tittle-structure">
+              <div className="content-structure">
+                <div className="distribution-structure1"><h2 className="tittle-content2">RUBBING, WAXING, AND POLISHING</h2></div>
+                <div className="distribution-structure3">
+                  <p className="last-description">Our technicians have undergone the most extensive and stringent car detail training program. And the only car that matters is yours because we will detail it to your complete satisfaction.</p>
+                </div>
+              </div>
+
+            </div>
           </div>
           <div className="internal-structure"> <img className="clean-img" src={clean2}></img></div>
         </div>
-        
+
 
 
 

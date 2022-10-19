@@ -305,13 +305,101 @@
 
 .internal-structure {
   width: 50%;
-  
-  
+  display: flex;
+
 }
 
 .clean-img {
   width: 100%;
   height: 100%;
-
-
 }
+
+.tittle-structure {
+  display: flex;
+  padding: 0px 30px 17px 70px;
+  height: 100%;
+  width: 60%;
+}
+
+.content-structure {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.distribution-structure1 {
+
+    display: flex;
+    width: 100%;
+    height: 36%;
+}
+
+.tittle-content {
+
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: italic;
+  
+}
+.distribution-structure2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+
+.subtittle-content {
+
+    display: flex;
+    height: 40px;
+    width: 50%;
+}
+
+.subtittle-text{
+  color:white;
+  font-size: 18px;
+  font-weight: inherit;
+  font-style: italic;
+}
+
+.tittle-structure {
+
+  display: flex;
+  padding: 0px 30px 17px 70px;
+  height: 100%;
+  width: 60%;
+}
+
+.distribution-structure3 {
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+
+.tittle-content2 {
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: italic;
+  max-width: 80%;
+}
+
+.last-description {
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+}
+
