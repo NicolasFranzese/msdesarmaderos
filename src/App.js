@@ -13,9 +13,9 @@ import team from "./images/team.png";
 import finanzas from "./images/finanzas.png";
 import ubicacion from "./images/ubicacion.png";
 import telefono from "./images/telefono2.png";
-import maps from "./images/maps.png";
 import clean from "./images/clean.jpg"
 import clean2 from "./images/clean2.jpg"
+import desarmadero from "./images/desarmadero.jpg"
 
 function App() {
   return (
@@ -41,7 +41,9 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="column-div"></div>
+            <div className="image-container">
+              <img className="image-parameters" src={desarmadero}></img>
+            </div>
           </div>
         </div>
 
