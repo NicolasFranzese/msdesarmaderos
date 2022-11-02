@@ -237,6 +237,11 @@ function App() {
           </div>
           <div className="internal-structure"> <img className="clean-img" src={clean2}></img></div>
         </div>
+        <div className="footer">
+          <div className="internal-footer">
+            <p className="text-footer"> ©MSDesarmaderos Promotors Theme All rights reserved Copyrights 2022</p> 
+          </div>
+        </div>
 
 
 
