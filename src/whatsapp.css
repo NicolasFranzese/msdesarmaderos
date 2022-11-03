@@ -1,0 +1,98 @@
+.whatsapp-chatbox {
+    width: 100%;
+    box-shadow: 1px 5px 16px rgba(0,0,0,.08);
+    transform: translateY(4pt) scale(0.95);
+  }
+  .whatsapp-chatbox header {
+    background-color: #075E54;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 1rem;
+    border-radius: .5rem .5rem 0 0;
+    justify-content: top;
+    align-items: center;
+    position: relative;
+  }
+  
+  .whatsapp-chatbox .avatar {
+    border-radius: 50%;
+    background: white url(./images/logo.png) center center / contain no-repeat;
+    background-size: 70%;
+    height: 60px;
+    width: 60px;
+    margin-right: 1rem;
+  }
+  
+  .whatsapp-chatbox h3 {
+    font-weight: bold;
+  }
+  
+  .whatsapp-chatbox h3, .whatsapp-chatbox h6 {
+    margin: .5rem;
+  }
+  
+  .whatsapp-chatbox > div {
+    background: #ECE5DD;
+    padding: 1rem 1.75rem;
+    position: relative;
+  }
+  
+  .whatsapp-chatbox > div::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(https://i.ibb.co/Mcz6rJ5/whatsapp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    z-index: 0;
+  }
+  
+  .whatsapp-chatbox .chat-bubble {
+    background-color: #fff;
+    border-radius: 0 .5rem .5rem .5rem;
+    box-shadow: 0 1px rgba(0,0,0,.13) 0.5 0;
+    padding: .5rem 1rem;
+    max-width: calc(61.8% + 1.75rem);
+    line-height: 2;
+    z-index: 1;
+    position:relative;
+  }
+  
+  .whatsapp-chatbox .chat-bubble p {
+     color: rgba(0,0,0,.4);
+     font-weight: bold;
+     margin: 0;
+  }
+  
+  .whatsapp-chatbox .chat-bubble::after {
+    content: '剛剛';
+    display: block;
+    font-size: .75rem;
+    text-align: right;
+    color: rgba(0,0,0,.4);
+  }
+  
+  .whatsapp-chatbox > footer {
+    border-radius: 0 0 .5rem .5rem;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+  }
+  
+  .whatsapp-chatbox > footer > a {
+    border-radius: .25rem;
+    background-color: #00E096;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+  }
