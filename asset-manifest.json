@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/msdesarmaderos/static/css/main.184fc93f.css",
-    "main.js": "/msdesarmaderos/static/js/main.0f46617e.js",
-    "static/js/787.90834b04.chunk.js": "/msdesarmaderos/static/js/787.90834b04.chunk.js",
-    "static/media/fondo.webp": "/msdesarmaderos/static/media/fondo.522e5a9ed68290276103.webp",
-    "static/media/volkswagen.png": "/msdesarmaderos/static/media/volkswagen.b5accdee3fe5bf05522c.png",
-    "static/media/clean.jpg": "/msdesarmaderos/static/media/clean.080f238666e31898029c.jpg",
-    "static/media/clean2.jpg": "/msdesarmaderos/static/media/clean2.81a7db992160eee1616f.jpg",
-    "static/media/desarmadero.jpg": "/msdesarmaderos/static/media/desarmadero.023a533d4b421b4c781d.jpg",
-    "static/media/logo.ico": "/msdesarmaderos/static/media/logo.74fbfbe178db3bdfdbee.ico",
-    "static/media/audi.png": "/msdesarmaderos/static/media/audi.2e525ad51bec08dc73ed.png",
-    "static/media/peugeot.png": "/msdesarmaderos/static/media/peugeot.906b834b2bf5ba354a22.png",
-    "static/media/ford.png": "/msdesarmaderos/static/media/ford.3cad22ce56b7cbd301ac.png",
-    "static/media/ubicacion.png": "/msdesarmaderos/static/media/ubicacion.9a413e3bd13363ccc1dc.png",
-    "static/media/medalla.png": "/msdesarmaderos/static/media/medalla.427fc6ef0200a27fccba.png",
-    "static/media/team.png": "/msdesarmaderos/static/media/team.9469ab6cc4b6078dfa42.png",
-    "static/media/telefono2.png": "/msdesarmaderos/static/media/telefono2.4d0d2ff8fe962151650c.png",
-    "static/media/chevrolet.png": "/msdesarmaderos/static/media/chevrolet.7d4b5b09e52d032571d9.png",
-    "index.html": "/msdesarmaderos/index.html",
-    "main.184fc93f.css.map": "/msdesarmaderos/static/css/main.184fc93f.css.map",
-    "main.0f46617e.js.map": "/msdesarmaderos/static/js/main.0f46617e.js.map",
-    "787.90834b04.chunk.js.map": "/msdesarmaderos/static/js/787.90834b04.chunk.js.map"
+    "main.css": "/msdesarmaderostest/static/css/main.09270bb6.css",
+    "main.js": "/msdesarmaderostest/static/js/main.7756cf45.js",
+    "static/js/787.90834b04.chunk.js": "/msdesarmaderostest/static/js/787.90834b04.chunk.js",
+    "static/media/fondo.webp": "/msdesarmaderostest/static/media/fondo.522e5a9ed68290276103.webp",
+    "static/media/volkswagen.png": "/msdesarmaderostest/static/media/volkswagen.b5accdee3fe5bf05522c.png",
+    "static/media/clean.jpg": "/msdesarmaderostest/static/media/clean.080f238666e31898029c.jpg",
+    "static/media/clean2.jpg": "/msdesarmaderostest/static/media/clean2.81a7db992160eee1616f.jpg",
+    "static/media/desarmadero.jpg": "/msdesarmaderostest/static/media/desarmadero.023a533d4b421b4c781d.jpg",
+    "static/media/logo.ico": "/msdesarmaderostest/static/media/logo.74fbfbe178db3bdfdbee.ico",
+    "static/media/audi.png": "/msdesarmaderostest/static/media/audi.2e525ad51bec08dc73ed.png",
+    "static/media/peugeot.png": "/msdesarmaderostest/static/media/peugeot.906b834b2bf5ba354a22.png",
+    "static/media/ford.png": "/msdesarmaderostest/static/media/ford.3cad22ce56b7cbd301ac.png",
+    "static/media/ubicacion.png": "/msdesarmaderostest/static/media/ubicacion.9a413e3bd13363ccc1dc.png",
+    "static/media/medalla.png": "/msdesarmaderostest/static/media/medalla.427fc6ef0200a27fccba.png",
+    "static/media/team.png": "/msdesarmaderostest/static/media/team.9469ab6cc4b6078dfa42.png",
+    "static/media/telefono2.png": "/msdesarmaderostest/static/media/telefono2.4d0d2ff8fe962151650c.png",
+    "static/media/chevrolet.png": "/msdesarmaderostest/static/media/chevrolet.7d4b5b09e52d032571d9.png",
+    "index.html": "/msdesarmaderostest/index.html",
+    "main.09270bb6.css.map": "/msdesarmaderostest/static/css/main.09270bb6.css.map",
+    "main.7756cf45.js.map": "/msdesarmaderostest/static/js/main.7756cf45.js.map",
+    "787.90834b04.chunk.js.map": "/msdesarmaderostest/static/js/787.90834b04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.184fc93f.css",
-    "static/js/main.0f46617e.js"
+    "static/css/main.09270bb6.css",
+    "static/js/main.7756cf45.js"
   ]
 }
