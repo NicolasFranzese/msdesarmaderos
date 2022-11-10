@@ -76,7 +76,7 @@ function App() {
 
         <div className="companies">
           <div className="son-companies">
-            <h1 className="tittle-sponsors">NUESTRAS MARCAS</h1>
+            <h1 className="tittle-sponsors">ALGUNAS MARCAS</h1>
           </div>
           <div className="images-companies">
             <img className="sponsors" src={ford} />

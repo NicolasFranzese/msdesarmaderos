@@ -1,8 +1,10 @@
 .whatsapp-chatbox {
     width: 100%;
-    box-shadow: 1px 5px 16px rgba(0,0,0,.08);
-    transform: translateY(4pt) scale(0.95);
+    box-shadow: 1px 5px 18px rgb(17 0 0);
+    margin-left: 14px;
+    margin-right: 14px;
   }
+
   .whatsapp-chatbox header {
     background-color: #075E54;
     color: #fff;
@@ -72,7 +74,7 @@
   }
   
   .whatsapp-chatbox .chat-bubble::after {
-    content: '剛剛';
+    content: '';
     display: block;
     font-size: .75rem;
     text-align: right;
@@ -95,4 +97,9 @@
     text-align: center;
     width: 100%;
     font-weight: bold;
+    transition: .5s ease transform;
+  }
+
+  .whatsapp-chatbox > footer > a:hover {
+    transform: scale(1.02);
   }
