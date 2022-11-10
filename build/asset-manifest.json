@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cff58f94.css",
-    "main.js": "/static/js/main.6d0748e6.js",
+    "main.js": "/static/js/main.43246eea.js",
     "static/js/787.90834b04.chunk.js": "/static/js/787.90834b04.chunk.js",
     "static/media/fondo.webp": "/static/media/fondo.522e5a9ed68290276103.webp",
     "static/media/volkswagen.png": "/static/media/volkswagen.b5accdee3fe5bf05522c.png",
@@ -19,11 +19,11 @@
     "static/media/chevrolet.png": "/static/media/chevrolet.7d4b5b09e52d032571d9.png",
     "index.html": "/index.html",
     "main.cff58f94.css.map": "/static/css/main.cff58f94.css.map",
-    "main.6d0748e6.js.map": "/static/js/main.6d0748e6.js.map",
+    "main.43246eea.js.map": "/static/js/main.43246eea.js.map",
     "787.90834b04.chunk.js.map": "/static/js/787.90834b04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cff58f94.css",
-    "static/js/main.6d0748e6.js"
+    "static/js/main.43246eea.js"
   ]
 }

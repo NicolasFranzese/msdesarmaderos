@@ -64,7 +64,7 @@ function App() {
                     </div>
                   </div>
                   <footer>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=+5492233068025&text=Hola,%20mi%20consulta%20es:">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5492233068025&text=Hola!%20%F0%9F%9A%97%20%0aSomos%20MSDesarmaderos,%20escribinos%20tu%20consulta:%0a">
                       Enviar
                     </a>
                   </footer>
