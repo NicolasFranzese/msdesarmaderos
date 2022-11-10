@@ -99,15 +99,12 @@ function App() {
               <div className="content-structure">
                 <div className="distribution-structure1">
                   <h2 className="tittle-content">
-                    CAR EXTERIOR CLEANING: BASIC DETAILING
+                  VARIEDAD DE REPUESTOS
                   </h2>
                 </div>
                 <div className="distribution-structure2">
                   <p className="last-description">
-                    Our technicians have undergone the most extensive and
-                    stringent car detail training program. And the only car that
-                    matters is yours because we will detail it to your complete
-                    satisfaction.
+                  En nuestras sucursales contamos con una gran variedad de repuestos de distintas marcas y modelos, debidamente etiquetadas, limpias y probadas.
                   </p>
                 </div>
               </div>
@@ -119,16 +116,13 @@ function App() {
             <div className="tittle-structure">
               <div className="content-structure">
                 <div className="distribution-structure1">
-                  <h2 className="tittle-content2">
-                    RUBBING, WAXING, AND POLISHING
+                  <h2 className="tittle-content">
+                    COMPRAR ES FACIL Y SEGURO
                   </h2>
                 </div>
                 <div className="distribution-structure3">
                   <p className="last-description">
-                    Our technicians have undergone the most extensive and
-                    stringent car detail training program. And the only car that
-                    matters is yours because we will detail it to your complete
-                    satisfaction.
+                  Contamos con un excelente servicio de envios a todo el pais, transportando el repuesto que necesites hacia tu ciudad.
                   </p>
                 </div>
               </div>
@@ -148,15 +142,15 @@ function App() {
               <div className="content-structure">
                 <div className="distribution-structure1">
                   <h2 className="tittle-content">
-                    CAR EXTERIOR CLEANING: BASIC DETAILING
+                    CUIDAMOS EL MEDIO AMBIENTE
                   </h2>
                 </div>
                 <div className="distribution-structure2">
                   <p className="last-description">
-                    Our technicians have undergone the most extensive and
-                    stringent car detail training program. And the only car that
-                    matters is yours because we will detail it to your complete
-                    satisfaction.
+                  En MS desarmaderos nos preocupamos por el cuidado del medio ambiente, todo nuestro proceso cuenta con una gestión responsable y autorizada de los componentes contaminantes.
+                   Al recibir los restos de vehículos realizamos la extracción de fluidos contaminantes, dándoles un destino adecuado y ajustado a la normativa vigente.
+Una vez finalizada esta etapa se inicia el desarme para hacer una exhaustiva selección de piezas útiles, en base a funcionamiento y estado de conservación.
+La última instancia es la clasificación de materiales que se mandarán a fundición.
                   </p>
                 </div>
               </div>
@@ -167,40 +161,34 @@ function App() {
 
       <div className="section-container second-section">
         <div className="section-identity">
-          <div className="tittle-identity">Why choose us?</div>
+          <div className="tittle-identity">¿Por que elegirnos?</div>
 
           <div className="presentation">
             <div className="presentation2">
               <div className="description">
                 <img className="logo-medal" src={medalla}></img>
               </div>
-              <div className="medal-tittle">Wide range of brands</div>
+              <div className="medal-tittle">Amplia variedad de marcas</div>
               <div className="medal-description">
-                We can help with your financing plan, we can offer some tips and
-                tricks. Drive off with this dream car of yours regardless of
-                your credit history.
+              Todos tus productos en un solo lugar. Actualmente contamos con todas las marcas del mercado, logrando asi brindar la pieza que estes buscando.
               </div>
             </div>
             <div className="presentation2">
               <div className="description">
                 <img className="logo-medal" src={team}></img>
               </div>
-              <div className="medal-tittle">Trusted by our clients</div>
+              <div className="medal-tittle">Cuidamos de nuestros clientes</div>
               <div className="medal-description">
-                We can help with your financing plan, we can offer some tips and
-                tricks. Drive off with this dream car of yours regardless of
-                your credit history.
+              Eres parte esencial de lo que hacemos en MSDesarmaderos; por eso, nos mantenemos pendientes de lo que necesitas y actuamos para brindarte soluciones relevantes
               </div>
             </div>
             <div className="presentation2">
               <div className="description">
                 <img className="logo-medal" src={finanzas}></img>
               </div>
-              <div className="medal-tittle">Fast & easy financing</div>
+              <div className="medal-tittle">Financiamiento rápido y fácil</div>
               <div className="medal-description">
-                We can help with your financing plan, we can offer some tips and
-                tricks. Drive off with this dream car of yours regardless of
-                your credit history.
+                En MSDesarmaderos contamos con los precios mas accesibles del mercado, junto a nuestro sistema de finanzas que facilita una compra optima y veloz.
               </div>
             </div>
           </div>
