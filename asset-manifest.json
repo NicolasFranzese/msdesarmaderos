@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/msdesarmaderos/static/css/main.184fc93f.css",
+    "main.css": "/msdesarmaderos/static/css/main.2df8e70a.css",
     "main.js": "/msdesarmaderos/static/js/main.0f46617e.js",
     "static/js/787.90834b04.chunk.js": "/msdesarmaderos/static/js/787.90834b04.chunk.js",
     "static/media/fondo.webp": "/msdesarmaderos/static/media/fondo.522e5a9ed68290276103.webp",
@@ -18,12 +18,12 @@
     "static/media/telefono2.png": "/msdesarmaderos/static/media/telefono2.4d0d2ff8fe962151650c.png",
     "static/media/chevrolet.png": "/msdesarmaderos/static/media/chevrolet.7d4b5b09e52d032571d9.png",
     "index.html": "/msdesarmaderos/index.html",
-    "main.184fc93f.css.map": "/msdesarmaderos/static/css/main.184fc93f.css.map",
+    "main.2df8e70a.css.map": "/msdesarmaderos/static/css/main.2df8e70a.css.map",
     "main.0f46617e.js.map": "/msdesarmaderos/static/js/main.0f46617e.js.map",
     "787.90834b04.chunk.js.map": "/msdesarmaderos/static/js/787.90834b04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.184fc93f.css",
+    "static/css/main.2df8e70a.css",
     "static/js/main.0f46617e.js"
   ]
 }
