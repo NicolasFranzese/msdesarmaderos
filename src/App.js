@@ -3,7 +3,7 @@ import "./App.css";
 import Iframe from "react-iframe";
 import logo from "././images/logo.ico";
 import ford from "./images/ford.png";
-import chevrolet from "./images/chevrolet.png";
+import chevrolet from "./images/chevrolet1.png";
 import peugeot from "./images/peugeot.png";
 import renault from "./images/renault.png";
 import audi from "./images/audi.png";
@@ -13,9 +13,9 @@ import team from "./images/team.png";
 import finanzas from "./images/finanzas.png";
 import ubicacion from "./images/ubicacion.png";
 import telefono from "./images/telefono2.png";
-import clean from "./images/clean.jpg";
-import clean2 from "./images/clean2.jpg";
-import desarmadero from "./images/desarmadero.jpg";
+import clean from "./images/frenteSM.jpg";
+import clean2 from "./images/motorsm.jpg";
+import desarmadero from "./images/autoSM.jpg";
 
 function App() {
   return (
@@ -27,16 +27,14 @@ function App() {
         <div className="home-container">
           <div>
             <div className="father-text-div">
-              <h1 className="font">MS Desarmaderos</h1>
+              <h1 className="font">SM Desarmaderos</h1>
             </div>
 
             <div className="slogan-div">
               <h2 className="slogan-font">
-                Es una empresa con grandes objetivos, la cual ha nacido de la
-                fusión de un grupo de personas con mucha experiencia en el
-                rubro, haciendo de la profesionalidad y un continuo afán de
-                superación, los pilares fundamentales para llevar a cabo el
-                cumplimiento de nuestros objetivos.
+                Somos una empresa que Nucleamos Desarmaderos de la Provincia de Santa cruz y
+                Buenos Aires los cuales se encuentran Habilitados por R.U.D.A.C. (Registro Único de
+                Desarmaderos y actividades Conexas)
               </h2>
             </div>
           </div>
@@ -99,12 +97,15 @@ function App() {
               <div className="content-structure">
                 <div className="distribution-structure1">
                   <h2 className="tittle-content">
-                  VARIEDAD DE REPUESTOS
+                  AUTOPARTES
                   </h2>
                 </div>
                 <div className="distribution-structure2">
                   <p className="last-description">
-                  En nuestras sucursales contamos con una gran variedad de repuestos de distintas marcas y modelos, debidamente etiquetadas, limpias y probadas.
+                  En nuestras sucursales contamos con una gran variedad de repuestos de distintas marcas y modelos, debidamente etiquetadas.
+                  <br></br>De esta manera le otorgamos al cliente la posibilidad de obtener un repuesto usado,
+contribuyendo con la oferta de repuestos a precios accesibles, reduciendo el robo
+automotor o delitos asociados a dicha comercialización.
                   </p>
                 </div>
               </div>
@@ -122,7 +123,7 @@ function App() {
                 </div>
                 <div className="distribution-structure3">
                   <p className="last-description">
-                  Contamos con un excelente servicio de envios a todo el pais, transportando el repuesto que necesites hacia tu ciudad.
+                  Contamos con un excelente servicio de envios a todo el pais,<br></br> transportando el repuesto que necesites hacia tu ciudad.
                   </p>
                 </div>
               </div>
@@ -150,7 +151,7 @@ function App() {
                   En MS desarmaderos nos preocupamos por el cuidado del medio ambiente, todo nuestro proceso cuenta con una gestión responsable y autorizada de los componentes contaminantes.
                    Al recibir los restos de vehículos realizamos la extracción de fluidos contaminantes, dándoles un destino adecuado y ajustado a la normativa vigente.
 Una vez finalizada esta etapa se inicia el desarme para hacer una exhaustiva selección de piezas útiles, en base a funcionamiento y estado de conservación.
-La última instancia es la clasificación de materiales que se mandarán a fundición.
+
                   </p>
                 </div>
               </div>
@@ -179,7 +180,7 @@ La última instancia es la clasificación de materiales que se mandarán a fundi
               </div>
               <div className="medal-tittle">Cuidamos de nuestros clientes</div>
               <div className="medal-description">
-              Eres parte esencial de lo que hacemos en MSDesarmaderos; por eso, nos mantenemos pendientes de lo que necesitas y actuamos para brindarte soluciones relevantes
+              Eres parte esencial de lo que hacemos en SM Desarmaderos; por eso, nos mantenemos pendientes de lo que necesitas y actuamos para brindarte soluciones relevantes
               </div>
             </div>
             <div className="presentation2">
@@ -188,7 +189,8 @@ La última instancia es la clasificación de materiales que se mandarán a fundi
               </div>
               <div className="medal-tittle">Financiamiento rápido y fácil</div>
               <div className="medal-description">
-                En MSDesarmaderos contamos con los precios mas accesibles del mercado, junto a nuestro sistema de finanzas que facilita una compra optima y veloz.
+              En SM Desarmaderos contamos con los precios más accesibles del mercado, junto a
+nuestro sistema de venta contamos con una compra optima y veloz.
               </div>
             </div>
           </div>
